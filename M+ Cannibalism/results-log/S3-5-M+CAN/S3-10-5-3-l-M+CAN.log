@@ -1,0 +1,43 @@
+CPXPARAM_Read_DataCheck                          1
+Found incumbent of value 0.000000 after 0.00 sec. (0.04 ticks)
+Tried aggregator 1 time.
+MIP Presolve modified 1 coefficients.
+Reduced MIP has 317 rows, 1505 columns, and 7517 nonzeros.
+Reduced MIP has 1505 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (2.82 ticks)
+Probing time = 0.00 sec. (3.35 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 317 rows, 1505 columns, and 7517 nonzeros.
+Reduced MIP has 1505 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (3.41 ticks)
+Probing time = 0.00 sec. (3.32 ticks)
+Clique table members: 5314.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.02 sec. (7.30 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0000     9378.0000              --- 
+*     0+    0                         1650.0000     9378.0000           468.36%
+      0     0     5027.5567     5     1650.0000     5027.5567      462  204.70%
+      0     0     5012.4733     5     1650.0000  Cliques: 179      473  203.79%
+      0     0     5000.9633     5     1650.0000  Cliques: 179      481  203.09%
+*     0+    0                         1729.0000     5000.9633           189.24%
+      0     0        cutoff           1729.0000     1729.0000      844    0.00%
+Elapsed time = 0.14 sec. (114.15 ticks, tree = 0.01 MB, solutions = 3)
+
+Clique cuts applied:  530
+Cover cuts applied:  2
+Implied bound cuts applied:  3
+
+Root node processing (before b&c):
+  Real time             =    0.14 sec. (114.27 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.14 sec. (114.27 ticks)

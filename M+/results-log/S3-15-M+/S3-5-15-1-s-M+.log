@@ -1,0 +1,80 @@
+CPXPARAM_Read_DataCheck                          1
+Found incumbent of value 0.000000 after 0.00 sec. (0.12 ticks)
+Tried aggregator 1 time.
+MIP Presolve modified 1 coefficients.
+Reduced MIP has 346 rows, 4515 columns, and 22560 nonzeros.
+Reduced MIP has 4515 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (8.36 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 346 rows, 4515 columns, and 22560 nonzeros.
+Reduced MIP has 4515 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (9.94 ticks)
+Probing time = 0.00 sec. (2.38 ticks)
+Clique table members: 8335.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.03 sec. (22.14 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0000    28036.0000              --- 
+      0     0     6025.6898    15        0.0000     6025.6898      712     --- 
+*     0+    0                          726.0000     6025.6898           729.98%
+      0     0     5711.8175   315      726.0000     Cuts: 186     1125  686.75%
+*     0+    0                         5400.0000     5711.8175             5.77%
+      0     0     5587.9937   466     5400.0000     Cuts: 186     1616    3.48%
+*     0+    0                         5454.0000     5587.9937             2.46%
+      0     0     5517.4993   637     5454.0000     Cuts: 186     2104    1.16%
+*     0+    0                         5455.0000     5517.4993             1.15%
+      0     0     5478.8025   705     5455.0000     Cuts: 186     2573    0.44%
+      0     0     5467.5058   710     5455.0000      Cuts: 95     2762    0.23%
+      0     0     5462.4934   808     5455.0000      Cuts: 73     2960    0.14%
+
+Repeating presolve.
+Tried aggregator 1 time.
+MIP Presolve eliminated 2 rows and 1771 columns.
+MIP Presolve modified 13 coefficients.
+Reduced MIP has 344 rows, 2744 columns, and 13347 nonzeros.
+Reduced MIP has 2744 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (5.71 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 344 rows, 2744 columns, and 13347 nonzeros.
+Reduced MIP has 2744 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (5.86 ticks)
+Represolve time = 0.03 sec. (22.04 ticks)
+Probing time = 0.00 sec. (1.63 ticks)
+Clique table members: 4074.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.14 sec. (111.41 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                         5455.0000     5460.0069             0.09%
+      0     0     5462.4934   806     5455.0000     5460.0069     4604    0.09%
+      0     0     5457.8670   400     5455.0000      Cuts: 26     4927    0.04%
+      0     0     5457.3805   133     5455.0000      Cuts: 15     4998    0.04%
+      0     0     5457.2875   139     5455.0000      Cuts: 12     5023    0.04%
+      0     0     5457.2277   221     5455.0000      Cuts: 13     5047    0.04%
+*     0+    0                         5456.0000     5457.0444             0.02%
+      0     0        cutoff           5456.0000     5456.0000     5047    0.00%
+Elapsed time = 3.16 sec. (1668.73 ticks, tree = 0.01 MB, solutions = 6)
+
+Clique cuts applied:  525
+Cover cuts applied:  32
+Flow cuts applied:  8
+Mixed integer rounding cuts applied:  22
+Zero-half cuts applied:  9
+
+Root node processing (before b&c):
+  Real time             =    3.17 sec. (1669.11 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    3.17 sec. (1669.11 ticks)

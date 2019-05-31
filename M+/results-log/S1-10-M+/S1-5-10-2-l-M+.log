@@ -1,0 +1,44 @@
+CPXPARAM_Read_DataCheck                          1
+Found incumbent of value 0.000000 after 0.00 sec. (0.03 ticks)
+Tried aggregator 1 time.
+MIP Presolve modified 6 coefficients.
+Reduced MIP has 131 rows, 1010 columns, and 5040 nonzeros.
+Reduced MIP has 1010 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (1.96 ticks)
+Probing time = 0.00 sec. (1.41 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 131 rows, 1010 columns, and 5040 nonzeros.
+Reduced MIP has 1010 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (2.21 ticks)
+Probing time = 0.00 sec. (1.41 ticks)
+Clique table members: 1445.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.00 sec. (2.68 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0000     6276.0000              --- 
+      0     0     3064.3346    13        0.0000     3064.3346      261     --- 
+      0     0     2154.8286   146        0.0000     Cuts: 142      702     --- 
+      0     0     1888.2285   289        0.0000     Cuts: 144     1158     --- 
+*     0+    0                         1706.0000     1888.2285            10.68%
+      0     0        cutoff           1706.0000     1706.0000     1625    0.00%
+Elapsed time = 0.19 sec. (116.86 ticks, tree = 0.01 MB, solutions = 2)
+
+GUB cover cuts applied:  2
+Clique cuts applied:  310
+Cover cuts applied:  19
+Mixed integer rounding cuts applied:  50
+Zero-half cuts applied:  5
+
+Root node processing (before b&c):
+  Real time             =    0.19 sec. (116.94 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.19 sec. (116.94 ticks)

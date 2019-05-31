@@ -1,0 +1,42 @@
+CPXPARAM_Read_DataCheck                          1
+Found incumbent of value 0.000000 after 0.00 sec. (3.82 ticks)
+Tried aggregator 1 time.
+MIP Presolve modified 1 coefficients.
+Reduced MIP has 10046 rows, 150015 columns, and 750060 nonzeros.
+Reduced MIP has 150015 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.52 sec. (294.80 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 10046 rows, 150015 columns, and 750060 nonzeros.
+Reduced MIP has 150015 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.69 sec. (348.56 ticks)
+Probing time = 0.17 sec. (31.18 ticks)
+Clique table members: 302538.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 1.26 sec. (732.15 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0000   924654.0000              --- 
+      0     0   185644.6821    17        0.0000   185644.6821    28613     --- 
+*     0+    0                       157956.0000   185644.6821            17.53%
+      0     0   175953.4220  3982   157956.0000    Cuts: 2611    38227   11.39%
+*     0+    0                       159989.0000   175953.4220             9.98%
+      0     0   172454.8668  8084   159989.0000    Cuts: 2611    46898    6.88%
+*     0+    0                       162733.0000   171002.6328             5.08%
+      0     0   170558.5338 11556   162733.0000    Cuts: 2611    55644    1.84%
+
+Clique cuts applied:  9212
+Cover cuts applied:  5
+Mixed integer rounding cuts applied:  32
+
+Root node processing (before b&c):
+  Real time             =  274.09 sec. (149003.24 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =  274.09 sec. (149003.24 ticks)
